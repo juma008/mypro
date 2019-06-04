@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<style>
+		.forupdate button{
+			width: 40%;
+			height: 40px;
+			margin-right: 40%;
+		}
+		#Quranlist{
+			width: 25%;
+			height: 750px;
+			background-color: brown;
+			float: left;
+			opacity: .70;
+		}
+		#get{
+			background-color: lightcyan;
+			margin-left: 40%;
+			height: 100px;
+			border-radius: 4%;
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="banner">
+			<img src="../image/2b.jpg" width="80%" height="70px">
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="../index.html">HOME</a></li>
+			<li><a href="#">Services</a>
+				<div id="holder" style="background-color: grey;">
+					<a href="online-reg.html">Online Registration System(ORS)</a><br><br>
+					<a href="studentMGT.html">Student Management System(SMS)</a><br><br>
+					<a href="onlineLib.html">College Online Library(COL)</a><br><br>
+					<a href="onlineStd.html">Online Study(OS)</a><br><br>
+					<a href="employee.html">Empoyment Oportunities</a>
+				</div>
+			</li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Contacts.html">Contacts</a></li>
+		</ul>
+	</div>
+	<div id="Quranlist">
+		<section>
+			<h3 align="center" style="color: gold;">Online Library Books</h3>
+			<ul class="forupdate">
+				<li><button style="float: right;" type="button" onclick="document.getElementById('get').innerHTML=('<p>In order for You to see the list of books for Tawhid; you have to login first &nbsp&nbsp&nbsp&nbsp<a href=studentMGT.html>login</a>')"> Tawhid</button></li>
+				<li><button style="float: right;" type="button" onclick="document.getElementById('get').innerHTML=('<p>In order for You to see the list of books for Al-Hadith; you have to login first &nbsp&nbsp&nbsp&nbsp<a href=studentMGT.html>login</a>')"> Al-Hadith</button></li>
+				<li><button style="float: right;" type="button" onclick="document.getElementById('get').innerHTML=('<p>In order for You to see the list of books for Quran; you have to login first &nbsp&nbsp&nbsp&nbsp<a href=studentMGT.html>login</a>')"> Quran</button></a></li>
+			</ul>
+		</section>
+		
+	</div>
+	<div id="contents">
+		<h2>Online Library</h2>
+		<div id="disp">
+		<p id="get" align="center" style="padding-top: 30px;font-size: 20px;">Please Navigate to List of Books<br><img src="../icons/larrow1.jpg" alt="image" style="width: 20%;"></p>
+		</div>
+			</div>
+	<div id="footer">
+		<div id="titl">
+			<img src="../image/bismi.gif" width="100%" height="50">
+		</div>
+		<div id="part1">
+			<div class="contents">
+				<h4>Long Beach Islamic Center
+Junction of Arusha-Babati and Mbauda Roads P.O.BOX 3030</h4>
+<br><br><br><br>
+				<ul>
+					<li>+2550758436506</li>
+					<li>Facsimile: +255-(0)27- 58436506</li><br>
+					<li>shekh@lbic.ac.tz</li>
+				</ul>
+			</div>
+		</div>
+		<div id="midpart">
+			<div class="content">
+				<h4>Facilities and Services</h4>
+				<ul>
+					<li>LBIC News Letter</li>
+					<li>Center Compitations</li>
+					<li>Sports and Games</li>
+				</ul>
+			</div>
+		</div>
+		<div id="part2">
+			<div class="content">
+				<h4>About The Center</h4>
+				<ul>
+					<li>Maps And Directions</li>
+					<li>Contact Us</li><br>
+					<li>Jobs</li>
+				</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+	</div>
+</div>
+<div id="social">
+		<ul>
+			<li><a href="#"><img src="../icons/fb.png" alt="fb" width="50" height="50" border="1px solid blue" ></a></li>
+			<li><a href="#"><img src="../icons/insta1.jpg" alt="insta" width="50" height="50" border="1px solid blue" ></a></li>
+			<li><a href="#"><img src="../icons/whatsapp.jpg" alt="whats" width="50" height="50" border="1px solid blue" ></a></li>
+		</ul>
+
+	</div>
+</body>
+</html>

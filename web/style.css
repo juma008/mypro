@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+	text-decoration: none;
+}
+body{
+	margin-top: 130px;
+}
+input{
+	width: 100%;
+	height: 80%;
+	border-radius: 10%;
+	line-height: 30px;
+}
+#wrapper{
+	margin-top: 2px;
+	margin-bottom: 3px;
+	width: 80%;
+	min-height: 900px;
+	margin-left: 10%;
+}
+#banner{
+	width: 80%;
+	height: 70px;
+	position: absolute;
+	top: 0px;
+	opacity: .8;
+
+}
+#banner img{
+	position: fixed;
+	z-index: 10;
+}
+#nav{
+	width: 80%;
+	height: 60px;
+	background-color: Crimson;
+	position: fixed;
+	top: 70px;
+	z-index: 11;
+	opacity: .8;
+}
+#updates{
+	width: 30%;
+	height: 750px;
+	background-color: rgb(99, 0, 47);
+	float: left;
+	z-index: 1;
+}
+#image{
+	width: 70%;
+	height: 450px;
+	float: left;
+}
+#info{
+	width: 70%;
+	height: 300px;
+	background-color: white;
+	float: left;
+}
+.upd{
+	margin-top: 50%;
+}
+#footer{
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+#titl{
+	width: 70%;
+	height: 50px;
+	background-color: grey;
+	margin-left: 15%;
+}
+#part1{
+	width: 30%;
+	height: 350px;
+	background-color: rgb(99, 0, 47);
+	float: left;
+	border-top-left-radius: 20px;
+}
+#midpart{
+	width: 40%;
+	height: 350px;
+	background-color: black;
+	float: left;
+}
+#part2{
+	width: 30%;
+	height: 350px;
+	background-color: black;
+	float: left;
+	border-top-right-radius: 20px;
+}
+.content{
+	padding-top: 20%;
+	padding-left: 10%;
+	line-height: 200%;
+}
+.content ul li{
+	font-size: 15px;
+	color: white;
+}
+.contents h4{
+	color: white;
+}
+.content h4{
+	font-size: 23px;
+	font-weight: bold;
+	color: brown;
+}
+.contents{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.contents ul{
+	padding-right: 20px;
+	margin-left: 5px;
+}
+.contents ul li{
+	color: white;
+	font-size: 16px;
+}
+ul li{
+	display: inline-block;
+	padding-left: 5%;
+	margin-top: 2%;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: verdana;
+}
+ul li a{
+	color: grey;
+}
+ul{
+	margin-left: 30%;
+}
+ul li:hover a{
+	background-color: cyan;
+	color: magenta;
+	font-family: Elephant;
+	border: 1px solid white;
+	border-radius: 15%;
+}
+.forupdate li{
+	font-weight: normal;
+	text-align: center;
+	line-height: 50px;
+	color: lightblue;
+	font-family: Arial;
+	display: block;
+
+}
+.forupdate{
+	margin: 6px;
+	background-color: lightcyan;
+}
+.forupdate li:hover a{
+	color: blue;
+}
+body{
+	background-image: url(image/sky.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#holder{
+	display: none;
+	float: left;
+}
+#nav ul li:hover #holder{
+	display: initial;
+	position: absolute;
+	height: 250px;
+	padding-top: 10px;
+	border: 1px solid black;
+	width: 40%;
+	margin-top: 0px;
+	border-radius: 3%;
+}
+#holder a{
+	background-color: grey;
+	border: none;
+	color: lightblue;
+}
+#contents{
+	width: 100%;
+	height: 760px;
+	background-color: grey;
+}
+#holder{
+	position: fixed;
+}
+#picture{
+	margin-left: 10%;
+	margin-top: 10px;
+}
+#picture img{
+	border: 1px solid black;
+	border-radius: 20%;
+}
+#additional{
+	width: 30%px;
+	height: 350px;
+	background-color: blue;
+}
+#social{
+	position: fixed;
+	width: 5%;
+	height: 40%;
+	top: 10px;
+}
+#social ul{
+	margin-left: -30px;
+}
+#social ul li a img{
+	border-radius: 20%;
+}
+#social ul li{
+	padding-top: 9px;
+}
+#social:hover ul{
+	margin-left: 0px;
+}
+.skills{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+.skills h3{
+	letter-spacing: 6px;
+}

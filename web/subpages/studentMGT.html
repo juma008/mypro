@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="banner">
+			<img src="../image/2b.jpg" width="80%" height="70px">
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="../index.html">HOME</a></li>
+			<li><a href="#">Services</a>
+				<div id="holder" style="background-color: grey;">
+					<a href="online-reg.html">Online Registration System(ORS)</a><br><br>
+					<a href="studentMGT.html">Student Management System(SMS)</a><br><br>
+					<a href="onlineLib.html">College Online Library(COL)</a><br><br>
+					<a href="onlineStd.html">Online Study(OS)</a><br><br>
+					<a href="employee.html">Empoyment Oportunities</a>
+				</div>
+			</li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Contacts.html">Contacts</a></li>
+		</ul>
+	</div>
+	<div id="contents">
+		<div id="sominf" style="width: 80%;background-color: lightblue;margin-left: 10%;height: 500px;">
+			<fieldset style="margin-left: 15%;background-color: rgb(59,160, 93);padding-top: 30px;border-radius: 5%;width: 70%">
+			<legend style="font-weight: bold;color: brown;font-size: 30px;">Student Management System</legend>
+			<form action="logein.html">
+			<table style="margin:10% 8% 10% 20%;">
+				<tr>
+					<th style="font-weight: bold;font-size: 30px;">User Name</th>
+					<td><input type="text" name="uid" placeholder="Enter your Username" required></td>
+				</tr>
+				<tr>
+					<th style="font-weight: bold;font-size: 30px;">Password</th>
+					<td><input type="password" name="pwd" placeholder="Enter the Correct password" required></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="reset" value="reset">
+					</td>
+					<td>
+						 <input type="submit" value="Submit">
+					</td>
+				</tr>
+			</table>
+			</form>
+			<button style="float: right;" type="button" onclick="document.getElementById('display').innerHTML=('<p>Use The Admission Number That you have given in Registration Office</p><p>On Username Enter: 17051xxxxxx<br>On Password Enter: 2019</p><br><br><span>Also for More information you can use this email for Admission Officer</span><br><span><p>Email</p><a href=#>admission001@gmail.com</a></span>')">For Help Click Here</button>
+		</fieldset>
+		<p id="display" style="margin-left: 20%;"></p>
+		</div>
+			</div>
+	<div id="footer">
+		<div id="titl">
+			<img src="../image/bismi.gif" width="100%" height="50">
+		</div>
+		<div id="part1">
+			<div class="contents">
+				<h4>Long Beach Islamic Center
+Junction of Arusha-Babati and Mbauda Roads P.O.BOX 3030</h4>
+<br><br><br><br>
+				<ul>
+					<li>+2550758436506</li>
+					<li>Facsimile: +255-(0)27- 58436506</li><br>
+					<li>shekh@lbic.ac.tz</li>
+				</ul>
+			</div>
+		</div>
+		<div id="midpart">
+			<div class="content">
+				<h4>Facilities and Services</h4>
+				<ul>
+					<li>LBIC News Letter</li>
+					<li>Center Compitations</li>
+					<li>Sports and Games</li>
+				</ul>
+			</div>
+		</div>
+		<div id="part2">
+			<div class="content">
+				<h4>About The Center</h4>
+				<ul>
+					<li>Maps And Directions</li>
+					<li>Contact Us</li><br>
+					<li>Jobs</li>
+				</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+	</div>
+</div>
+</body>
+</html>
